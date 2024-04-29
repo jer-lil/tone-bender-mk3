@@ -1,0 +1,17 @@
+.title KiCad schematic
+.include "C:\Users\jeremiah\KiCad\6.0\spice_models\KiCad-Spice-Library\Models\Transistor\BJT\BJT.lib"
+R1 Net-_Q2-Pad1_ Net-_C1-Pad1_ 100k
+Q1 GND Net-_C1-Pad1_ Net-_Q1-Pad3_ 2N3904
+R2 VDD Net-_Q1-Pad3_ 100k
+C1 Net-_C1-Pad1_ Net-_C1-Pad2_ 2.2u
+VJ1 unconnected-_J1-PadR_ unconnected-_J1-PadRN_ GND unconnected-_J1-PadSN_ Net-_C1-Pad2_ unconnected-_J1-PadTN_ sin(0 0.1 100)
+VJ2 GND VDD dc 9 ac 0
+C2 Net-_C2-Pad1_ GND 20u
+RV1 Net-_Q2-Pad1_ Net-_C2-Pad1_ GND 1k
+R4 Net-_C3-Pad1_ Net-_Q2-Pad3_ 100k
+Q2 Net-_Q2-Pad1_ Net-_Q1-Pad3_ Net-_Q2-Pad3_ 2N3904
+R3 VDD Net-_C3-Pad1_ 100k
+C3 Net-_C3-Pad1_ Net-_C3-Pad2_ 10n
+RV2 Net-_C3-Pad2_ Net-_J3-PadT_ GND 500k
+J3 unconnected-_J3-PadR_ unconnected-_J3-PadRN_ GND unconnected-_J3-PadSN_ Net-_J3-PadT_ unconnected-_J3-PadTN_ AudioJack3_Switch
+.end
