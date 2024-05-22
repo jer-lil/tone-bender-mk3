@@ -1,4 +1,4 @@
-23079983108497822
+23093754735130712
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -17,6 +17,27 @@ BB_Capacitor_THT
 C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
 C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*4.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf
 C Rect series Radial pin pitch 5.00mm  length 7.2mm width 4.5mm Capacitor
+0
+2
+2
+BB_Diodes
+D_DO-35_SOD27_P7.5mm_Horizontal
+Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
+Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm
+0
+2
+2
+BB_Diodes
+D_DO-41_SOD81_P7.5mm_Horizontal
+Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf
+Diode DO-41_SOD81 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm
+0
+2
+2
+BB_Diodes
+D_DO-41_SOD81_P10.0mm_Horizontal
+Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf
+Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm
 0
 2
 2
@@ -70,6 +91,34 @@ potentiometer vertical TT P0915N single
 3
 3
 BB_Potentiometers
+Potentiometer_Bourns_3214G_Horizontal
+Potentiometer, horizontal, Bourns 3214G, https://www.bourns.com/docs/Product-Datasheets/3214.pdf
+Potentiometer horizontal Bourns 3214G
+0
+3
+3
+BB_Potentiometers
+Potentiometer_Bourns_3214X_Vertical
+Potentiometer, vertical, Bourns 3214X, https://www.bourns.com/docs/Product-Datasheets/3214.pdf
+Potentiometer vertical Bourns 3214X
+0
+3
+3
+BB_Potentiometers
+Potentiometer_Bourns_3362P_Vertical
+Potentiometer, vertical, Bourns 3386F, https://www.bourns.com/pdfs/3386.pdf
+Potentiometer vertical Bourns 3386F
+0
+3
+3
+BB_Potentiometers
+Potentiometer_Bourns_3362S_Horizontal
+Potentiometer, vertical, Bourns 3386F, https://www.bourns.com/pdfs/3386.pdf
+Potentiometer vertical Bourns 3386F
+0
+3
+3
+BB_Potentiometers
 Potentiometer_Bourns_3386F_Vertical
 Potentiometer, vertical, Bourns 3386F, https://www.bourns.com/pdfs/3386.pdf
 Potentiometer vertical Bourns 3386F
@@ -108,6 +157,13 @@ BB_Switches
 SW_TOGGLE_SPDT_SUBMINI_PCB
 
 
+0
+3
+3
+BB_Transistor
+TO-92L_Wide_EBC
+TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)
+TO-92L Molded Wide transistor
 0
 3
 3
