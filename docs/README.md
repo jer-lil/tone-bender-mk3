@@ -1,2 +1,2 @@
 [Interactive BOM
-](https://jer-lil.github.io/tone-bender-mk3/ibom.html)
+](/ibom.html)
